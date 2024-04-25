@@ -1,0 +1,16 @@
+version: "1"
+services:
+  db:
+    container_name: de300HW
+    image: mysql:latest
+    ports:
+      - "32001:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: meow
+  app:
+    container_name: de300
+    links:
+      - "db"
+    build: ./
+    ports:
+      - "5001:5000"
