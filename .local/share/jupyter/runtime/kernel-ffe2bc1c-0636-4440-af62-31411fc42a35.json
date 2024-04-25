@@ -1,0 +1,13 @@
+{
+  "shell_port": 49867,
+  "iopub_port": 38209,
+  "stdin_port": 59627,
+  "control_port": 56247,
+  "hb_port": 59951,
+  "ip": "127.0.0.1",
+  "key": "944df8d6-b579a023fb5c5a69abd20c2c",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "python3",
+  "jupyter_session": "/home/jovyan/DE300/lab_doc/lab4/lab4(assignment_included).ipynb"
+}
