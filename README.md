@@ -1,5 +1,5 @@
 assignment 1 instructions (public key has been added to instance):
-1. start instance
+1. start instance rachelyao_de300
 2. cd de300
 3. cd assignments
 
