@@ -1,5 +1,0 @@
-FROM python:3.8
-COPY . .
-RUN pip install mysql-connector-python pandas scipy scikit-learn matplotlib
-ENV PYTHONPATH=.
-CMD ["python", "hw1.py"]

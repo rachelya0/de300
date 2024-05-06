@@ -1,0 +1,10 @@
+# Use the official PostgreSQL image
+FROM postgres:latest
+
+# Set environment variables for database setup
+ENV POSTGRES_USER=postgres
+ENV POSTGRES_PASSWORD=meow
+ENV POSTGRES_DB=heart_disease
+
+# Expose the port PostgreSQL runs on
+EXPOSE 5432

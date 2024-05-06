@@ -1,0 +1,12 @@
+# Use the official MySQL image
+FROM mysql:latest
+
+# Set environment variables for database setup
+ENV MYSQL_USER=root
+ENV MYSQL_ROOT_PASSWORD=meow
+ENV MYSQL_DB=heart_disease
+ENV MYSQL_PASSWORD=meow
+
+# Expose the port MySQL runs on
+EXPOSE 3306
+
