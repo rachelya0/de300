@@ -2,12 +2,8 @@ assignment 1 instructions (public key has been added to instance):
 1. start instance rachelyao_de300
 2. cd de300
 3. cd assignments
-
-If you run sudo docker ps -a, you will see an image assignments-app for the Python file, and mysql:latest for the database.
-
-
-4. sudo docker build -t assignments-app .
-5. sudo docker-compose run app
-   
-Can grab the Python file hw1.py from EC2 instance to local machine (using scp) in order to view the plots.
+4. run the run.sh file to create initiate all required containers(etl-container and postgres-container) and enter the shell of etl-container with the command 'docker exec -it etl-container /bin/bash'
+6. start the jupyter notebook by 'jupyter notebook --ip=0.0.0.0'
+7. in a browser, type localhost:8888/tree?token=[paste from terminal output from step 5]
+8. run all cells in hw1.ipynb
 
