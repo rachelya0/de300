@@ -1,0 +1,13 @@
+{
+  "shell_port": 39555,
+  "iopub_port": 35049,
+  "stdin_port": 33501,
+  "control_port": 55481,
+  "hb_port": 55717,
+  "ip": "127.0.0.1",
+  "key": "49d0d99f-f662dcc7cabed5ede7baa311",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "python3",
+  "jupyter_session": "/home/jovyan/lab_doc/lab6/spark-sql/pyspark-sql.ipynb"
+}
