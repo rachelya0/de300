@@ -12,3 +12,23 @@ assignment 2 instructions:
 2. fill in aws credentials in cell 2, from https://nu-sso.awsapps.com/start --> access keys
 3. run all cells in hw2.ipynb
 
+assignment 3 instructions:
+1. follow steps 1-3 above, listed for assignment 1
+2. cd src
+
+(to run code in jupyter notebook)
+
+3. 'docker build .'
+
+4. start the jupyter notebook by 'jupyter notebook --ip=0.0.0.0'
+
+5. fill in aws credentials in cell 2, from https://nu-sso.awsapps.com/start --> access keys
+ 
+6. run all cells in hw3.ipynb
+
+(to run code using emr:)
+
+3. configure ems cluster using hw3.py
+
+4. 'bash run_hw3.sh'
+
