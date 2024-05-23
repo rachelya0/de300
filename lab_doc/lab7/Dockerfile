@@ -26,8 +26,8 @@ ENV PATH="/tmp/demos/bin:$PATH"
 # Activate the virtual environment and install necessary Python packages
 RUN /bin/bash -c "source demos/bin/activate && \
     pip install numpy venv-pack jupyter && \
-    pip install pyspark==3.4.0 && \
-    pip install jupyter && \
+    pip install --no-cache-dir pyspark==3.4.0 && \
+    pip install --no-cache-dir jupyter && \
     demos/bin/venv-pack -o demos.tar.gz"
 
 # Clean up unnecessary files and reset DEBIAN_FRONTEND
