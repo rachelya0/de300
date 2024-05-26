@@ -26,9 +26,3 @@ assignment 3 instructions:
  
 6. run all cells in hw3.ipynb
 
-(to run code using emr:)
-
-3. configure ems cluster using hw3.py
-
-4. 'bash run_hw3.sh'
-
