@@ -4,20 +4,21 @@ sequential_queue = "sequential"
 default_queue = "general"
 
 [db]
-db_identifier = "rachel-airflow"
+db_identifier = "rachel-airflow-rds"
 db_connection = "AIRFLOW_CONN_AWS_RDS_POSTGRES"
 username = 'postgres'
-password = '12341234'
-host = 'rachel-airflow.cluster-cvwhaidrmrqj.us-east-2.rds.amazonaws.com'
+password = '+.ICyNr7]_??.6BMR3hU%XyT|lDW'
+host = 'rachel-airflow-rds.cvwhaidrmrqj.us-east-2.rds.amazonaws.com'
 port = '5432'  # Default port for PostgreSQL
 default_db = 'postgres'  # Default database you can connect to
 db_name = 'demo_wine'
 db_alchemy_driver = "postgresql+psycopg2"
 
 [files]
-s3_bucket = "de300spring2024-airflow"
+s3_bucket = "de300-airflow-rachel"
 s3_file_key = "wine.csv"
-
+remote_file = "wine.csv"
+local_file = "wine.csv"
 
 [ml]
 train_test_ratio = 0.2
