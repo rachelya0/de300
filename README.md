@@ -26,3 +26,8 @@ assignment 3 instructions:
  
 6. run all cells in hw3.ipynb
 
+assignment 4 instructions:
+1. follow steps 1-3, listed for assignment 1
+2. cd src
+3. download rachel_hw4.py and upload to de300spring2024demo MWAA environment
+4. trigger DAG
