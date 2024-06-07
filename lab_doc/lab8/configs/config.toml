@@ -5,9 +5,9 @@ default_queue = "general"
 
 [db]
 db_identifier = "rachel-airflow-rds"
-db_connection = "AIRFLOW_CONN_AWS_RDS_POSTGRES"
+db_connection = "rachel-connection"
 username = 'postgres'
-password = '+.ICyNr7]_??.6BMR3hU%XyT|lDW'
+password = 'meowmeow'
 host = 'rachel-airflow-rds.cvwhaidrmrqj.us-east-2.rds.amazonaws.com'
 port = '5432'  # Default port for PostgreSQL
 default_db = 'postgres'  # Default database you can connect to
